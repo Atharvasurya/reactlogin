@@ -20,6 +20,7 @@ export const Login = (props) => {
                 <button type="submit">Login</button>
             </form>
             <button className="red-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register Now!</button>
+                  <p>© Websun.in | Atharva Suryawanshi</p>
         </div>
     )
 }
