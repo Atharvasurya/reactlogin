@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  font-family: Source Sans Pro, 'sans-serif';
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(55,28,171,1) 0%, rgba(0,212,255,1) 100%, rgba(254,255,0,1) 100%, rgba(130,107,231,1) 100%, rgba(37,9,121,1) 100%, rgba(122,97,233,1) 100%, rgba(173,162,222,1) 100%);
+}
+
+.list-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  color: white;
+  font-size: 41px;
+}
+
+@media screen and (min-width: 600px) {
+  .list-form-container {
+    padding: 5rem;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  font-size: 22px;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-size: 13px;
+  border: none;
+  border-radius: 2px;
+}
+
+input:focus{
+  background-color: rgb(250, 247, 247);
+  color: black;
+  font-size: 14px;
+  transition: 0.4s;
+}
+
+button {
+  border: none;
+  background-color: #fac817;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+button:hover{
+  background-color: rgb(201, 201, 201);
+  color: white;
+  transition: 0.5s;
+}
+
+.red-btn {
+  background: none;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+
+@media screen and (min-width: 600px) {
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+    font-size: 22px;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  input:focus{
+    background-color: rgb(250, 247, 247);
+    color: black;
+    font-size: 14px;
+    transition: 0.4s;
+  }
+
+  button {
+    border: none;
+    background-color: #fac817;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .red-btn {
+    background: none;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  h2{
+    color: white;
+    font-size: 41px;
+  }
+}
